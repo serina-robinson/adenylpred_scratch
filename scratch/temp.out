@@ -5,11 +5,11 @@ AIT38302.1_LstE_Lipstatin -           1581 AMP-binding          PF00501.28   423
 AIT38300.1_LstC_Lipstatin -            874 AMP-binding          PF00501.28   423   1.2e-69  224.8   0.0   1   1   2.2e-70   1.6e-69  224.4   0.0     1   421    28   488    28   490 0.83 -
 #
 # Program:         hmmsearch
-# Version:         3.1b2 (February 2015)
+# Version:         3.2.1 (June 2018)
 # Pipeline mode:   SEARCH
-# Query file:      /Users/robi0916/Documents/Wageningen_UR/github/adenylpred_scratch/data/AMP-binding_3.hmm
-# Target file:     examples/lipstatin.fasta
-# Option settings: hmmsearch -o align_temp.out --domtblout temp.out --domT 10 --cpu 3 /Users/robi0916/Documents/Wageningen_UR/github/adenylpred_scratch/data/AMP-binding_3.hmm examples/lipstatin.fasta 
-# Current dir:     /Users/robi0916/Documents/Wageningen_UR/github/adenylpred_scratch
-# Date:            Wed Jun 26 15:59:36 2019
+# Query file:      ../data/AMP-binding_3.2.hmm
+# Target file:     ../examples/lipstatin.fasta
+# Option settings: hmmsearch -A aligned.out --domtblout temp.out --domT 50 --cpu 3 ../data/AMP-binding_3.2.hmm ../examples/lipstatin.fasta 
+# Current dir:     /Users/robi0916/Documents/Wageningen_UR/github/adenylpred_scratch/scratch
+# Date:            Wed Jun 26 12:17:34 2019
 # [ok]

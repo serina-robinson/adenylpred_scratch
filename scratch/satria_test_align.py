@@ -95,7 +95,7 @@ def hmmscan(sequence, hmm_file, hmm_len, cutoff):
 
 if __name__ == "__main__":
     sequence = "%s/examples/lipstatin.fasta" % parent_folder
-    hmm_file = "%s/data/AMP-binding_3.hmm" % parent_folder
+    hmm_file = "%s/data/AMP-binding_3.2.hmm" % parent_folder
     # hmmlen = get_hmm_lengths("%s/data/AMP-binding.hmm" % parent_folder)
     hmmlen = 418
     cutoff = 300

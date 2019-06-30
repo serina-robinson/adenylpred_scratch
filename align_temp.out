@@ -1,0 +1,127 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /Users/robi0916/Documents/Wageningen_UR/github/adenylpred_scratch/data/AMP-binding_3.hmm
+# target sequence database:        examples/lipstatin.fasta
+# output directed to file:         align_temp.out
+# per-dom hits tabular output:     temp.out
+# domain reporting threshold:      score >= 10
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       AMP-binding  [M=423]
+Accession:   PF00501.28
+Description: AMP-binding enzyme
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+    2.9e-77  249.8   0.0    3.9e-77  249.4   0.0    1.2  1  AIT38302.1_LstE_Lipstatin  
+    1.2e-69  224.8   0.0    1.6e-69  224.4   0.0    1.2  1  AIT38300.1_LstC_Lipstatin  
+
+
+Domain annotation for each sequence (and alignments):
+>> AIT38302.1_LstE_Lipstatin  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  249.4   0.0   5.6e-78   3.9e-77       1     422 [.     825    1224 ..     825    1225 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 249.4 bits;  conditional E-value: 5.6e-78
+                                 HHHHHHHSTTSEEEEECCSTEEEEHHHHHHHHHHHHHHHHHTTSSTT-EEEEEESSSHHHHHHHHHHHHTT-EEEEEETTS- CS
+                AMP-binding    1 leeqaaktpdkvalvdsgegqtlTYreldervnrlAagLrslGvkkgdrVaillpnspewvvallailkaGavvvplnptlt 82  
+                                 +++qaa+tp +val   g    +TY+eld+r++++Aa L ++G  + d V+++++++pe v+ l +ilkaGa++vpl+p+ +
+  AIT38302.1_LstE_Lipstatin  825 FRAQAARTPAAVALD--GPAGPVTYAELDRRSDAVAAELVRRGTARRDLVGLVVDRTPEGVAGLWGILKAGAAYVPLDPAHP 904 
+                                 789***********4..599********************99**************************************** PP
+
+                                 HHHHHHHHHHHTESEEEETCTCCCHHHHHHHHSCC-EECEEEEESCCS-HCCHCCCHCCCCSCTTS-TSCCCS-BTTSEEEE CS
+                AMP-binding   83 aeelayiledseakvliatvdselleklleaaakleavklvivldadellkeeelkeeeeseekaekpeeeeelkpddlayi 164 
+                                  ++++ +l+++++++ +  + ++l+++l+e      ++ + + +d+  +++ ++       + +   p  +  + p dlay+
+  AIT38302.1_LstE_Lipstatin  905 GPRIRGVLASCGVRLTL--TRRHLAAHLAE-----FVPGALLAVDD--VPTPAQP------PFA---P-VATGPAPGDLAYV 967 
+                                 *****************..76666444444.....45566777774..3333222......222...2.2335899****** PP
+
+                                 EEE--SSSS-EEEEEEHHHHHHHHHHHHHHHCSCCTTT-EEEESS-TTSCHHHHHHHHHHHHTT-EEEE-TTCGCCHHHHHH CS
+                AMP-binding  165 iYTSGTTGkPKGVmlshrnlvanvaslkletrfklkeddvvlsilplahifglilelllallsGatvvllpkdaaldpklll 246 
+                                 + TSG+TG+PKGV ++hr lva+++++   +  +++e+ ++    ++a+++++ + l+l+ll+G+t vl+p+ +   p++l 
+  AIT38302.1_LstE_Lipstatin  968 MHTSGSTGHPKGVLIEHRGLVAFARWMT--DLCRVGEGTRFGFASSYAFDISC-FPLFLPLLAGGTAVLAPGAPS--PATLR 1044
+                                 ***********************99974..444467899*************8.*****************9988..899** PP
+
+                                 HHHHHHT-SEEEEEHHHHHHHHHCCCHHCHHHHCCGTT.-SEEEEESS-EBHHHHHHHHHHHTC..EEEEEEEEGGGSSECE CS
+                AMP-binding  247 elieklkvtviagvPrvleallesgalkaakkakdlss.lrlvllggeplspellrffralfge..evlegYGlTEttgvvt 325 
+                                 +l+ ++++ ++a++P+ l  l             d ++ l ++llgge l p+++r ++a fg+  ++++gYG+TE+t+++ 
+  AIT38302.1_LstE_Lipstatin 1045 ALVGEHRADTLALTPSHLALLDG-----------DGGGpLSTLLLGGEELTPAAVRSAYAAFGTgcRLINGYGPTEATVACL 1115
+                                 ******************99933...........4456699**********************9*****************5 PP
+
+                                 E..CHCTTTCTSTTS-BEE-TTEEEEEE-TTTSCBEE.....TTSEEEEEEEETTS-SEBTT-....HHHHHHHEEE..T.C CS
+                AMP-binding  326 v..lpleedkkklgsvGkplpgvevkivDeetgepvp.....dgeeGellvrgpgvmkgYlkk....peataeafds..e.g 393 
+                                    +++ e  ++l+  G+p p+ +v +v e+ g  v+      g +Ge++v+g +v++gY++     p+ t   f +  +  
+  AIT38302.1_LstE_Lipstatin 1116 AhvVDDTETGPSLP-LGTPGPDLRVDLVAED-GASVGtgpddVGRVGEIVVHGIQVARGYHGSvsaePDGTVGPFSTgpDgL 1195
+                                 33455555556665.8************999.88887676667788***************986666777877787675234 PP
+
+                                 CEEEEEEEEEEETTSEEEEEEECCCEEEE CS
+                AMP-binding  394 rwlrTGDlgrldedGyleivgRkkdlikl 422 
+                                 r +rTGDlgr+ + G + + gR++ ++k+
+  AIT38302.1_LstE_Lipstatin 1196 RSYRTGDLGRRLPGGGIAFAGRADGQVKV 1224
+                                 59*************************98 PP
+
+>> AIT38300.1_LstC_Lipstatin  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  224.4   0.0   2.2e-70   1.6e-69       1     421 [.      28     488 ..      28     490 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 224.4 bits;  conditional E-value: 2.2e-70
+                                HHHHHHHSTTSEEEEE..........CCSTEEEEHHHHHHHHHHHHHHHHHTTSSTT-EEEEEESSSHHHHHHHHHHHHTT-EE CS
+                AMP-binding   1 leeqaaktpdkvalvd..........sgegqtlTYreldervnrlAagLrslGvkkgdrVaillpnspewvvallailkaGavv 74 
+                                le++a+ +pdk+a++           s  ++tlTY+ l+++v++lAagL+++G++kg++ ++++p++pe++++++a++++Gav+
+  AIT38300.1_LstC_Lipstatin  28 LERNARAFPDKPAVIHpaagprrdgaSPAYRTLTYGRLQQAVEELAAGLTRAGITKGTKTVLMAPPGPELFALAFALFRVGAVP 111
+                                6899**********99**********889*********************99******************************** PP
+
+                                EEEETTS-HHHHHHHHHHHTESEEEETCTCCC.HHHHHHHHSCC-EECEEEEESCCS-HCCHCCCHCCCCSCTTS-TSCCCS-B CS
+                AMP-binding  75 vplnptltaeelayiledseakvliatvdsel.leklleaaakleavklvivldadellkeeelkeeeeseekaekpeeeeelk 157
+                                v+++p+++ +++ ++ + ++a+++i      + +++ll  +a     ++ + l + +l ++++l +      +++    ++++ 
+  AIT38300.1_LstC_Lipstatin 112 VVVDPGMGVRRMLHCYRTVGAEAFI--GPPLAhAARLLGRRAF-AGIRVPVTLGRHRLGRARTLAAVRALG-ARGGAAAPVAAG 191
+                                *************************..3333334555554443.344555566666666665555444222.222344677899 PP
+
+                                TTSEEEEEEE--SSSS-EEEEEEHHHHHHHHHHHHHHHCSCCTTT-EEEESS-TTSCHHHHHHHHHHHHTT-EEEE-TTCGCCH CS
+                AMP-binding 158 pddlayiiYTSGTTGkPKGVmlshrnlvanvaslkletrfklkeddvvlsilplahifglilelllallsGatvvllpkdaald 241
+                                 ddl++i +T G+TG  KGV ++hr +++++++++    ++ ++dd+ l++lp++ ++ l+++  l+l+  a        a++d
+  AIT38300.1_LstC_Lipstatin 192 RDDLLMIGFTTGSTGPAKGVEYTHRMALSAARQIE--AVHGRTRDDTSLVTLPFYGVLDLVYGSTLVLAPLAPSR----VAQAD 269
+                                9********************************85..34556789**************9666666665444333....44467 PP
+
+                                HHHHHHHHHHHT-SEEEEEHHHHHHHHHCCCHHCHHHHCCGTT-SEEEEESS-EBHHHHHHHHHHHTC..EEEEEEEEGGGSSE CS
+                AMP-binding 242 pklllelieklkvtviagvPrvleallesgalkaakkakdlsslrlvllggeplspellrffralfge..evlegYGlTEttgv 323
+                                p+l+++++e+++vt++++ P++l  l+++ a + a  ++ l+ lr v+ gg+p++ +++ ++r+ + +  +++ +YG TE++++
+  AIT38300.1_LstC_Lipstatin 270 PALVVDALERFRVTTMFASPALLGPLAAHLAAA-APGRHPLPDLRCVVGGGAPVPDTTVAALRRALDPraRIHVTYGATEALPI 352
+                                8899**********************8864443.667889**************************99999************* PP
+
+                                CEE...........................CHCTTTCTSTTS-.BEE-TTEEEEEE-TTTSCBEE.......TTSEEEEEEEET CS
+                AMP-binding 324 vtv...........................lpleedkkklgsv.GkplpgvevkivDeetgepvp.......dgeeGellvrgp 372
+                                +++                           +   +  + +g++ G+p+pg+ ++++     +p+        +g +Ge+ vrg 
+  AIT38300.1_LstC_Lipstatin 353 TSIeaeellgpedggegggsgvggagsggtA--ARAAEGAGTCvGRPVPGIGLAVLPVT-DGPLTgsvphlpTGRVGEIAVRGD 433
+                                *99999**********************752..34444556655************654.4444223435669999******** PP
+
+                                TS-SEBTT-HHHHHHHEEE......TCCEEEEEEEEEEETTSEEEEEEECCCEEE CS
+                AMP-binding 373 gvmkgYlkkpeataeafds......egrwlrTGDlgrldedGyleivgRkkdlik 421
+                                +v + Y+  p+a + + ++      ++ w rTGDlg+ld+dG+l+++gR+ + + 
+  AIT38300.1_LstC_Lipstatin 434 CVSPRYHHSPDADRLHKVPddtdpaGPAWHRTGDLGYLDDDGRLWFCGRSAQRVR 488
+                                *********9987776654578864245*********************987665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (423 nodes)
+Target sequences:                           14  (5940 residues searched)
+Passed MSV filter:                         3  (0.214286); expected 0.3 (0.02)
+Passed bias filter:                        2  (0.142857); expected 0.3 (0.02)
+Passed Vit filter:                         2  (0.142857); expected 0.0 (0.001)
+Passed Fwd filter:                         2  (0.142857); expected 0.0 (1e-05)
+Initial search space (Z):                 14  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.05
+# Mc/sec: 50.25
+//
+[ok]

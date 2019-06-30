@@ -1,0 +1,150 @@
+hmmsearch - search a sequence database with a profile HMM
+HMMER 2.3.2 (Oct 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                   ../data/AMP-binding_hmm2.hmm [AMP-binding]
+Sequence database:          ../examples/lipstatin.fasta
+per-sequence score cutoff:  [none]
+per-domain score cutoff:    [none]
+per-sequence Eval cutoff:   <= 10        
+per-domain Eval cutoff:     [none]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query HMM:   AMP-binding
+Accession:   PF00501.21
+Description: AMP-binding enzyme
+  [No calibration for HMM; E-values are upper bounds]
+
+Scores for complete sequences (score includes all domains):
+Sequence                                  Description   Score    E-value  N 
+--------                                  -----------   -----    ------- ---
+AIT38302.1_LstE_Lipstatin                               315.6    1.3e-94   1
+AIT38300.1_LstC_Lipstatin                               215.0    2.7e-64   1
+
+Parsed for domains:
+Sequence                                  Domain  seq-f seq-t    hmm-f hmm-t      score  E-value
+--------                                  ------- ----- -----    ----- -----      -----  -------
+AIT38302.1_LstE_Lipstatin                   1/1     846  1249 ..     1   418 []   315.6  1.3e-94
+AIT38300.1_LstC_Lipstatin                   1/1      61   514 ..     1   418 []   215.0  2.7e-64
+
+Alignments of top-scoring domains:
+AIT38302.1_LstE_Lipstatin: domain 1 of 1, from 846 to 1249: score 315.6, E = 1.3e-94
+                CS    EHHHHHHHHHHHHHHHHH----TT-EEEEE-SSSHHHHHHHHHHHHT
+                   *->TYreldervnrlaagLrklGvkpgdrVaillpnspewviaflaclka
+                      TY+eld+r++ +aa L ++G  + d V+++++++pe v+ ++++lka
+  AIT38302.1   846    TYAELDRRSDAVAAELVRRGTARRDLVGLVVDRTPEGVAGLWGILKA 892  
+
+                CS T-EEEE--TTS-HHHHHHHHHHCTESEEEEESBCHCCHHHHHHHHHCHHE
+                   Gavyvpvyptlpaerlayilndseakvlitddelltklkeaaskelakea
+                   Ga+yvp++p +p  r++ +l+ +++++ +t  +l++ l e     l    
+  AIT38302.1   893 GAAYVPLDPAHPGPRIRGVLASCGVRLTLTRRHLAAHLAEFVPGALLA-- 940  
+
+                CS CCETTCCEESECCCCCCEHCHHHHGTSTSS-CCCSBTTTSEEEEEEE---
+                   liivrsepaesvgeeellleleslkkasteppkvplkpddlayiiyTSGt
+                                     ++    ++ + +p +  + p dlay++ TSG+
+  AIT38302.1   941 -----------------VDDVPTPAQPPFAPVATGPAPGDLAYVMHTSGS 973  
+
+                CS ----EEEEEEHHHHHHHHHHHHHHHTTTTT.EEEEES-TTSTHHHCCCHH
+                   TGkPKgVmlthrnllalvagiakrvglkpddrvlsllplafdgsvleilg
+                   TG+PKgV+++hr+l+a+++++ + ++++++ r+ + +++afd s++ +++
+  AIT38302.1   974 TGHPKGVLIEHRGLVAFARWMTDLCRVGEGTRFGFASSYAFDISCFPLFL 1023 
+
+                CS HHTTT-EEEEESSCCTCSHHHHHHHHHHTT-SEEEE-HHHHHHHHHHHHC
+                   plllGatlvlvspedlkdpalllddiekykvtvlalvptllelllkapek
+                   pll+G+t vl+++ +   pa+l  ++ ++++ +lal+p++l ll      
+  AIT38302.1  1024 PLLAGGTAVLAPGAPS--PATLRALVGEHRADTLALTPSHLALLDGDG-- 1069 
+
+                CS CCTTTTT--EEEE-----THHHHHHHHHHCT TSEEEEEE--GGGSSESE
+                   kkldlsslrlilsggeplspellrrlreafg.gipivngYGltEttvivt
+                        + l ++l+gge l+p+++r++++afg+g++++ngYG+tE+tv++ 
+  AIT38302.1  1070 ----GGPLSTLLLGGEELTPAAVRSAYAAFGtGCRLINGYGPTEATVACL 1115 
+
+                CS EEECGHHH -SSC---EBSTTTEEEEEBSTT-BEE-S--     --EEEE
+                   vslpgdee.tkpgsiGrplpgveikivdeegkevppgev.....GEllir
+                   ++ ++d+e+  + + G+p p+ ++ +v e+g  v++g  + ++ GE++++
+  AIT38302.1  1116 AHVVDDTEtGPSLPLGTPGPDLRVDLVAEDGASVGTGPDdvgrvGEIVVH 1165 
+
+                CS STTS--B-TT-HHHHHHHEEESTT-       EEE---EEEE-TT--EEE
+                   gpsvakGYlkdpeltaeafvedgwk.......lyrTGDlgridedGylei
+                   g +va+GY++   +  +  +  ++ +++++ + yrTGDlgr+++ G + +
+  AIT38302.1  1166 GIQVARGYHGSVSAEPDG-TVGPFStgpdglrSYRTGDLGRRLPGGGIAF 1214 
+
+                CS EEGGGCEEEB---EEEHHHHHHHHHTSTTEEEEEE   
+                   iGRkkdqvkirGeriepgeiEsvllehpgvaeaaV<-*
+                    GR++ qvk++G+riep+ei ++l +hpgva aaV   
+  AIT38302.1  1215 AGRADGQVKVAGHRIEPAEITAALEAHPGVARAAV    1249 
+
+AIT38300.1_LstC_Lipstatin: domain 1 of 1, from 61 to 514: score 215.0, E = 2.7e-64
+                CS    EHHHHHHHHHHHHHHHHH----TT-EEEEE-SSSHHHHHHHHHHHHT
+                   *->TYreldervnrlaagLrklGvkpgdrVaillpnspewviaflaclka
+                      TY+ l + v++laagL++ G+ +g++ ++++p++pe++++++a+++ 
+  AIT38300.1    61    TYGRLQQAVEELAAGLTRAGITKGTKTVLMAPPGPELFALAFALFRV 107  
+
+                CS T-EEEE--TTS-HHHHHHHHHHCTESEEEEESBCHCCHHHHHHHHHCHHE
+                   Gavyvpvyptlpaerlayilndseakvlitddelltklkeaaskelakea
+                   Gav+v+v+p ++ +r+ ++ + ++a + i     +++ +  + + +   +
+  AIT38300.1   108 GAVPVVVDPGMGVRRMLHCYRTVGAEAFIGPPLAHAARLLGRRAFAGIRV 157  
+
+                CS CCETTCCEESECCCCCCEHCHHHHGTSTSS-CCCSBTTTSEEEEEEE---
+                   liivrsepaesvgeeellleleslkkasteppkvplkpddlayiiyTSGt
+                    +          g+ + l     l+++  +  +v    ddl++i +T G+
+  AIT38300.1   158 PVTLGRHRL---GRARTLAAVRALGARGGAAAPVAAGRDDLLMIGFTTGS 204  
+
+                CS ----EEEEEEHHHHHHHHHHHHHHHTTTTT.EEEEES-TTSTHHHCCCHH
+                   TGkPKgVmlthrnllalvagiakrvglkpddrvlsllplafdgsvleilg
+                   TG  KgV +thr  l+ +++i++  g + dd++l  lp++  g +  ++g
+  AIT38300.1   205 TGPAKGVEYTHRMALSAARQIEAVHGRTRDDTSLVTLPFY--GVLDLVYG 252  
+
+                CS HHTTT-EEEEESSCCTCSHHHHHHHHHHTT-SEEEE-HHHHHHHHHHHHC
+                   plllGatlvlvspedlkdpalllddiekykvtvlalvptllelllkapek
+                   + l+ a l   +  +  dpal++d++e+++vt++++ p+ll  l+++  +
+  AIT38300.1   253 STLVLAPLAPSRVAQ-ADPALVVDALERFRVTTMFASPALLGPLAAHLAA 301  
+
+                CS    CCTTTTT--EEEE-----THHHHHHHHHHCT TSEEEEEE--GGGSS
+                   ...kkldlsslrlilsggeplspellrrlreafg.gipivngYGltEttv
+                     + ++ l+ lr ++ gg+p++ +++  lr+a+ ++++i+ +YG tE+ +
+  AIT38300.1   302 aapGRHPLPDLRCVVGGGAPVPDTTVAALRRALDpRARIHVTYGATEALP 351  
+
+                CS ESEEEECGHHH                          -SSC---EBSTTT
+                   ivtvslpgdee..........................tkpgsiGrplpgv
+                   i+++   +   + +++ +++++ ++ +++++  +        +Grp+pg+
+  AIT38300.1   352 ITSIEAEELLGpedggegggsgvggagsggtaaraaeGAGTCVGRPVPGI 401  
+
+                CS EEEEEBSTT-BEE-S--       --EEEESTTS--B-TT-HHHHHHHEE
+                   eikivdeegkevppgev.......GEllirgpsvakGYlkdpeltaeafv
+                    + ++   +++++  +++ ++++ GE+ +rg++v   Y+  p++ +   v
+  AIT38300.1   402 GLAVLPVTDGPLTGSVPhlptgrvGEIAVRGDCVSPRYHHSPDADRLHKV 451  
+
+                CS ESTT-     EEE---EEEE-TT--EEEEEGGGCEEEB---EEEHHHHHH
+                   edgwk.....lyrTGDlgridedGyleiiGRkkdqvkirGeriepgeiEs
+                   +d++ + ++ + rTGDlg++d+dG l+++GR+ + v  +    ++   E 
+  AIT38300.1   452 PDDTDpagpaWHRTGDLGYLDDDGRLWFCGRSAQRVRTGTGDLHTVRCEG 501  
+
+                CS HHHTSTTEEEEEE   
+                   vllehpgvaeaaV<-*
+                   v ++hp+v+  a    
+  AIT38300.1   502 VFNAHPQVRRTAL    514  
+
+
+Histogram of all scores:
+score    obs    exp  (one = represents 1 sequences)
+-----    ---    ---
+>-344     14      -|==============                                             
+
+
+% No statistical fit available
+
+Total sequences searched: 14
+
+Whole sequence top hits:
+tophits_s report:
+     Total hits:           10
+     Satisfying E cutoff:  2
+     Total memory:         21K
+
+Domain top hits:
+tophits_s report:
+     Total hits:           10
+     Satisfying E cutoff:  10
+     Total memory:         40K

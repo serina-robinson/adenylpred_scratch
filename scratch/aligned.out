@@ -1,0 +1,30 @@
+# STOCKHOLM 1.0
+#=GF ID AMP-binding
+#=GF AC PF00501.28
+#=GF DE AMP-binding enzyme
+#=GF AU hmmsearch (HMMER 3.2.1)
+
+#=GS AIT38302.1_LstE_Lipstatin/825-1224 DE [subseq from] AIT38302.1_LstE_Lipstatin
+#=GS AIT38300.1_LstC_Lipstatin/28-488   DE [subseq from] AIT38300.1_LstC_Lipstatin
+
+AIT38302.1_LstE_Lipstatin/825-1224         FRAQAARTPAAVALD-..........-GPAGPVTYAELDRRSDAVAAELVRRGTARRDLVGLVVDRTPEGVAGLWGILKAGAAYVPLDPAHPGPRIRGVLASCGVRLTL--TRRHL.AAHLAE-----FVPGALLAVDD--VPTPAQP------PFA---P-VATGPAPGDLAYVMHTSGSTGHPKGVLIEHRGLVAFAR
+#=GR AIT38302.1_LstE_Lipstatin/825-1224 PP 789***********4............599********************99*********************************************************..76666.444444.....45566777774..3333222......222...2.2335899*****************************99
+AIT38300.1_LstC_Lipstatin/28-488           LERNARAFPDKPAVIHpaagprrdgaSPAYRTLTYGRLQQAVEELAAGLTRAGITKGTKTVLMAPPGPELFALAFALFRVGAVPVVVDPGMGVRRMLHCYRTVGAEAFI--GPPLAhAARLLGRRAF-AGIRVPVTLGRHRLGRARTLAAVRALG-ARGGAAAPVAAGRDDLLMIGFTTGSTGPAKGVEYTHRMALSAAR
+#=GR AIT38300.1_LstC_Lipstatin/28-488   PP 6899**********99**********889*********************99*********************************************************..3333334555554443.344555566666666665555444222.2223446778999*******************************
+#=GC PP_cons                               6899**********69..........8699********************99*********************************************************..55555.4444444443.44466666665665555333544422222223344556999*****************************99
+#=GC RF                                    xxxxxxxxxxxxxxxx..........xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+AIT38302.1_LstE_Lipstatin/825-1224         WMT--DLCRVGEGTRFGFASSYAFDISC-FPLFLPLLAGGTAVLAPGAPS--PATLRALVGEHRADTLALTPSHLALLDG-----------DGGGpLSTLLLGGEELTPAAVRSAYAAFGTgcRLINGYGPTEATVACLAh.........................vVDDTETGPSLP-L.GTPGPDLRVDLVAED-GAS
+#=GR AIT38302.1_LstE_Lipstatin/825-1224 PP 974..444467899*************8.*****************9988..899********************99933...........4456699**********************9*****************533.........................455555556665.8.************999.888
+AIT38300.1_LstC_Lipstatin/28-488           QIE--AVHGRTRDDTSLVTLPFYGVLDLVYGSTLVLAPLAPSR----VAQADPALVVDALERFRVTTMFASPALLGPLAAHLAAA-APGRHPLPD.LRCVVGGGAPVPDTTVAALRRALDPraRIHVTYGATEALPITSIeaeellgpedggegggsgvggagsggtA--ARAAEGAGTCvGRPVPGIGLAVLPVT-DGP
+#=GR AIT38300.1_LstC_Lipstatin/28-488   PP *85..34556789**************9666666665444333....444678899**********************8864443.667889***.***********************99999**************99999**********************752..34444556655************654.444
+#=GC PP_cons                               984..444467899*************9688888888777666***9666678999*******************9996664443.667886788.99*********************99..9**************76...........................3554444566666.************876.666
+#=GC RF                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxx...........................xxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxx
+
+AIT38302.1_LstE_Lipstatin/825-1224         VGtg..pddVGRVGEIVVHGIQVARGYHGSvsaePDGTVGPFSTg....pDgLRSYRTGDLGRRLPGGGIAFAGRADGQVKV-
+#=GR AIT38302.1_LstE_Lipstatin/825-1224 PP 8767..6667788***************98666677787778767....523459*************************98.
+AIT38300.1_LstC_Lipstatin/28-488           LTgsvphlpTGRVGEIAVRGDCVSPRYHHS....PDADRLHKVPddtdpaG.PAWHRTGDLGYLDDDGRLWFCGRSAQRVR--
+#=GR AIT38300.1_LstC_Lipstatin/28-488   PP 4223435669999*****************....99877766545788642.45*********************987665..
+#=GC PP_cons                               64.......8899***************99....8888776765......2.459********************9998878.
+#=GC RF                                    xx.......xxxxxxxxxxxxxxxxxxxxx....xxxxxxxxxx......x.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
